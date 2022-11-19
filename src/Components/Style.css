@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    scroll-behavior: smooth;
+}
+
+.form-body {
+
+    padding: 2rem;
+    background-color: #fff !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+}
+
+form {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+}
+
+.progress {
+    height: 0.5rem !important;
+}
+
+
+@media (max-width: 400px) {
+    .form-body {
+        padding: 2rem 0.5rem !important;
+    }
+}
